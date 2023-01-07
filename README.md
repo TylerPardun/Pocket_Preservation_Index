@@ -4,7 +4,7 @@ A repository that includes a way to quantify and rank linemen within the NFL usi
 ## Contributors
 Tyler Pardun, MSc Student | [Linkedin](www.linkedin.com/in/tyler-pardun-5207ab158) | Twitter: [@t_pardun](https://twitter.com/t_pardun)
 
-Michael Pardun, Operations Analyst; Kuvare Insurance Services | [Linkedin](www.linkedin.com/in/tyler-pardun-5207ab158) | Twitter: [@t_pardun](https://twitter.com/t_pardun)
+Michael Pardun, Operations Analyst; Kuvare Insurance Services | [Linkedin](https://www.linkedin.com/in/michaelpardun/) | Twitter: [@MichaelWpardun](https://twitter.com/MichaelWpardun)
 
 
 # Code Breakdown
