@@ -15,7 +15,7 @@ All of our code used to compute and analyze PPI is housed in jupyter notebooks:
 4. Analyzing and ranking players and teams are performed in **EPT_analysis.ipynb**. This is the fun part. 
 
 #Raw Data
-The raw data used in this analysis is housed in raw_data/. The R code needed to create **pbp.csv** is in **get_pbp_data.R**.
+The raw data used in this analysis is housed on our kaggle notebook under raw-data/. If you want the R code needed to create **pbp.csv** is in **get_pbp_data.R**, but this is included in the raw-data/ directory.
 
 # Figures and Tables
 All figures and tables are housed in figures/ 
