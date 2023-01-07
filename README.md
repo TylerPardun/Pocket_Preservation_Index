@@ -9,7 +9,7 @@ Michael Pardun, Operations Analyst; Kuvare Insurance Services | [Linkedin](www.l
 
 # Code Breakdown
 All of our code used to compute and analyze PPI is housed in jupyter notebooks:
-1. We organize the raw NextGen Stats and PFF Scouting data housed in **RawData_to_csv.ipynb** and **plays_dictionary.ipynb**. All dictionaries and csv files are included, so no need to run these as it takes a while. Feel free to run as you see fit. 
+1. We organize the raw NextGen Stats and PFF Scouting data housed in **RawData_to_csv.ipynb** and **plays_dictionary.ipynb**. Feel free to run these notebooks to get the dictionaries needed to perform the analysis. You will need the data included from the 2023 Big Data Bowl available on kaggle. 
 2. Using **plot_plays.ipynb**, we visualized full plays to put context into the PPI for specific players.
 3. We trained a two neural networks to compute PPI that are housed in **pocket_time_compute.ipynb**. This uses the **full_plays_dictionary.pckl** which is organized by playID.
 4. Analyzing and ranking players and teams are performed in **EPT_analysis.ipynb**. This is the fun part. 
