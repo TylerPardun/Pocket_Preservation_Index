@@ -11,11 +11,11 @@ Michael Pardun, Operations Analyst; Kuvare Insurance Services | [Linkedin](https
 All of our code used to compute and analyze PPI is housed in jupyter notebooks:
 1. We organize the raw NextGen Stats and PFF Scouting data housed in **RawData_to_csv.ipynb** and **plays_dictionary.ipynb**. Feel free to run these notebooks to get the dictionaries needed to perform the analysis. You will need the data included from the 2023 Big Data Bowl available on kaggle. 
 2. Using **plot_plays.ipynb**, we visualized full plays to put context into the PPI for specific players.
-3. We trained a two neural networks to compute PPI that are housed in **pocket_time_compute.ipynb**. This uses the **full_plays_dictionary.pckl** which is organized by playID.
+3. We trained a neural network to compute PPI that is housed in **pocket_time_compute.ipynb**. This uses the **full_plays_dictionary.pckl** file which is organized by playID and can be created in **pocket_time_compute.ipynb**.
 4. Analyzing and ranking players and teams are performed in **EPT_analysis.ipynb**. This is the fun part. 
 
 #Raw Data
-The raw data used in this analysis including the play-by-play dictionary and pocket time contribution dictionary are housed on our kaggle notebook. The R code needed to create **pbp.csv** is in **get_pbp_data.R**.
+The raw data used in this analysis including the play-by-play data is available on kaggle (see [NFL Data Bowl 2023](https://www.kaggle.com/competitions/nfl-big-data-bowl-2023/overview)). The R code needed to create **pbp.csv** is in **get_pbp_data.R**.
 
 # Figures and Tables
 All figures and tables are housed in figures/ 
